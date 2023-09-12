@@ -8,6 +8,7 @@ main {
     justify-content: space-between;
     height: 100vh;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 
     .left-side, .right-side {
         width: 50%;
@@ -30,10 +31,11 @@ main {
                 color: white;
                 font-size: 60px;
                 margin: 20px 0;
+                font-family: 'Roboto', sans-serif;
             }
             .right-list {
                 color: #000066;
-                font-size: 20px;
+                font-size: 18px;
                 list-style-type: none;
                 display: flex;
                 width: 70%;
@@ -52,6 +54,7 @@ main {
         
         .main-title {
             font-size: 30px;
+            font-family: 'Roboto', sans-serif;
 
             .blue-title {
                 color: #3366ff;
@@ -60,16 +63,17 @@ main {
 
         .mobile-welcome {
             display: none;
+            font-family: 'Roboto', sans-serif;
         }
 
         .main-subtitle {
             width: 60%;
             color: gray;
-            margin: 30px 0;
+            margin: 20px 0;
         }
 
         form {
-            margin: 30px 0 75px 0;
+            margin: 20px 0 30px 0;
 
             .form-field {
                 margin: 40px 0;
@@ -84,7 +88,7 @@ main {
                     border: none;
                     border-bottom: 1px solid;
                     font-size: 16px;
-                    padding: 7px 0;
+                    padding: 7px;
                 }
             }
 
@@ -129,7 +133,7 @@ main {
                 background-color: #3366ff;
                 color: white;
                 border: none;
-                margin: 20px;
+                margin: 17px 0;
 
                 svg {
                     width: 25px;
