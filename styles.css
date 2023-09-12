@@ -7,9 +7,10 @@ main {
   display: flex;
   justify-content: space-between;
   height: 100vh;
+  position: relative;
 }
 main .left-side, main .right-side {
-  width: 49%;
+  width: 50%;
   padding: 50px 70px;
 }
 main .left-side {
@@ -38,6 +39,89 @@ main .left-side .top-left .right-list {
 main .left-side .right-foot {
   color: white;
   font-size: 30px;
+}
+main .right-side .main-title {
+  font-size: 30px;
+}
+main .right-side .main-title .blue-title {
+  color: #3366ff;
+}
+main .right-side .mobile-welcome {
+  display: none;
+}
+main .right-side .main-subtitle {
+  width: 60%;
+  color: gray;
+  margin: 30px 0;
+}
+main .right-side form {
+  margin: 30px 0 75px 0;
+}
+main .right-side form .form-field {
+  margin: 40px 0;
+}
+main .right-side form .form-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+main .right-side form .form-field input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 16px;
+  padding: 7px 0;
+}
+main .right-side form .submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .right-side form .submit button {
+  color: #3366ff;
+  background-color: lightblue;
+  border: none;
+  font-size: 20px;
+  padding: 5px 27px;
+  border-radius: 8px;
+}
+main .right-side form .submit h4 {
+  font-size: 18px;
+  color: #3366ff;
+}
+main .right-side .sign-google {
+  background-color: lightgray;
+  position: absolute;
+  width: 50%;
+  margin-left: -70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+main .right-side .sign-google button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background-color: #3366ff;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+main .right-side .sign-google button svg {
+  width: 25px;
+  background-color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+main .right-side .sign-google p {
+  font-size: 16px;
+}
+main .right-side .sign-google p a {
+  text-decoration: none;
+  color: #3366ff;
 }
 
 /*# sourceMappingURL=styles.css.map */
