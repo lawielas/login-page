@@ -103,6 +103,7 @@ main .right-side .sign-google {
   flex-direction: column;
   align-items: center;
   padding: 60px 0;
+  margin-top: 25px;
 }
 main .right-side .sign-google button {
   display: flex;
@@ -113,6 +114,7 @@ main .right-side .sign-google button {
   color: white;
   border: none;
   margin: 17px 0;
+  padding-right: 10px;
 }
 main .right-side .sign-google button svg {
   width: 25px;
@@ -126,6 +128,112 @@ main .right-side .sign-google p {
 main .right-side .sign-google p a {
   text-decoration: none;
   color: #3366ff;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    display: block;
+    height: 100vh;
+    position: static;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+  main .left-side {
+    display: none;
+  }
+  main .right-side {
+    width: 100%;
+    padding: 30px;
+  }
+  main .right-side .main-title {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+  main .right-side .main-title .blue-title {
+    color: #3366ff;
+  }
+  main .right-side .mobile-welcome {
+    display: block;
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+  }
+  main .right-side .main-subtitle {
+    width: 60%;
+    color: gray;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  main .right-side form {
+    margin: 20px 0 30px 0;
+  }
+  main .right-side form .form-field {
+    margin: 30px 0;
+  }
+  main .right-side form .form-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  main .right-side form .form-field input {
+    width: 85%;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    padding: 7px;
+  }
+  main .right-side form .submit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+  }
+  main .right-side form .submit button {
+    color: #3366ff;
+    background-color: lightblue;
+    border: none;
+    font-size: 16px;
+    padding: 5px 25px;
+    border-radius: 8px;
+    margin-right: 80px;
+  }
+  main .right-side form .submit h4 {
+    font-size: 16px;
+    color: #3366ff;
+  }
+  main .right-side .sign-google {
+    background-color: lightgray;
+    position: static;
+    width: 100%;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+  }
+  main .right-side .sign-google button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background-color: #3366ff;
+    color: white;
+    border: none;
+    margin: 17px 0;
+  }
+  main .right-side .sign-google button svg {
+    width: 20px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  main .right-side .sign-google p {
+    font-size: 14px;
+  }
+  main .right-side .sign-google p a {
+    text-decoration: none;
+    color: #3366ff;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
